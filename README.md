@@ -6,3 +6,4 @@
 <b>finalstructs.xlsx</b> - the table containing structures and <i>interaction mode</i> for each domain <br>
 <b>finalfamiles.xlsx</b> - the table containing  structures, domains and <i>interaction class</i> for each family <br>
  <b>resolution.xlsx </b> - the table containing the number of structures and the best resolution among all structures for each domain
+ <b>res.py</b>  - calculating resolutions for structs
