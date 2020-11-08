@@ -9,6 +9,6 @@ Some scripts which are taking into account the resolution of structures and the 
 <b>tablestructs.py, tablestructsrun.py</b> for each <i>interaction class</i> calculates the number of structures and the number of domains belonging to families with this <i>interaction class</i> <br>
 <b>tablestructsdom.py, tablestructsrundom.py</b> for each <i>interaction mode</i> calculates the number of structures and the number of families belonging to domains with this <i>interaction mode</i> <br>
 <b>tablestructs2.py, tablestructsrun2.py</b> for each <i>interaction mode</i>  calculates the number of families and the number of domains belonging to structures with this <i>interaction mode</i> <br>
-<b>inter.py</b> calculates the number of <i>interaction modes</i> for structures that need to be changed
-<b>interdomains.py</b> calculates the number of <i>interaction modes</i> for  domains that need to be changed
-<b>interfamiliespy</b> calculates the number of <i>interaction modes</i> for families that need to be changed
+<b>inter.py</b> calculates the number of <i>interaction modes</i> for structures that need to be changed<br>
+<b>interdomains.py</b> calculates the number of <i>interaction modes</i> for  domains that need to be changed<br>
+<b>interfamilies.py</b> calculates the number of <i>interaction modes</i> for families that need to be changed<br>
