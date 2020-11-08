@@ -5,8 +5,8 @@ Some scripts which are taking into account the resolution of structures and the 
 <b>sqlcountcorrone_fam.py</b> - the template for calculating the number of  families for each <i>interaction class</i> (class) <br>
 <b>sqlcountcorronedom.py</b> - the template for calculating the number of  domains for each <i>interaction mode</i> (class) <br>
 <b>sqlcountcorrone_structs.py</b> - the template for calculating the number of  structures for each <i>interaction mode</i> (class) <br>
-<b>tablestructs.py, tablestructs_run.py</b> for each <i>interaction class</i></i> calculates the number of structures and the number of domains belonging to families with this <i>interaction class</i> <br>
-<b>tablestructs.py, tablestructsrun.py</b> for each <i>interaction class calculates the number of structures and the number of domains belonging to families with this <i>interaction class</i> <br>
+<b>tablestructs.py, tablestructs_run.py</b> for each <i>interaction class</i> calculates the number of structures and the number of domains belonging to families with this <i>interaction class</i> <br>
+<b>tablestructs.py, tablestructsrun.py</b> for each <i>interaction class</i> calculates the number of structures and the number of domains belonging to families with this <i>interaction class</i> <br>
 <b>tablestructsdom.py, tablestructsrundom.py</b> for each <i>interaction mode</i> calculates the number of structures and the number of families belonging to domains with this <i>interaction mode</i> <br>
 <b>tablestructs2.py, tablestructsrun2.py</b> for each <i>interaction mode</i>  calculates the number of families and the number of domains belonging to structures with this <i>interaction mode</i> <br>
  <b>res.py</b>  - calculates resolutions for structures<br>
