@@ -3,7 +3,6 @@
 import os
 import sys
 import subprocess
-#os.chdir("/home/nooroka/pfam1/")
 listtxt = []
 opch = open("pfamcheck4.txt","r")
 for file1 in opch:
@@ -25,12 +24,6 @@ for file6 in sorted(listtxt2):
     process = subprocess.Popen(command)
     code = process.wait()
 
-    #print(file6) #eсли тут print поставить, то один файл печатается
-  #  program = "python"
-  #  arguments = ["Interaction_modemain.py", file6]
-  #  os.execvp(program, (program,) + tuple(arguments))
-  #  print(file6)
- #   print("check")
 
 
 #итог: останавливает проход по файлам именно os.execvp (выяснено по print("check"))
