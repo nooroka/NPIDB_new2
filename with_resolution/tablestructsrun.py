@@ -1,7 +1,5 @@
 import subprocess
 import os
-#os.remove("result_table.txt")
-#os.remove("result_err.txt")
 listint = []
 setint = set()
 op3 = open("/home/nooroka/backupres02102020/families/dictinter7.txt")
