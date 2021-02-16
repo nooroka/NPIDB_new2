@@ -24,6 +24,3 @@ for file6 in sorted(listtxt2):
     process = subprocess.Popen(command)
     code = process.wait()
 
-
-
-#итог: останавливает проход по файлам именно os.execvp (выяснено по print("check"))
