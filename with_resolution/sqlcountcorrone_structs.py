@@ -1,16 +1,6 @@
 from collections import defaultdict
-#op = open("familiesendcorr2.txt","r")
 op = open("/home/nooroka/backupres02102020/result_sqldatabase_updated_new_sorted.txt","r")
-#op2 = open("familiesendcorrprom2.txt","w")
 op3 = open("/home/nooroka/backupres02102020/structsendcorr2rep_corr.txt","w")
-'''
-op5 = open("/home/nooroka/backupres02102020/structsgood.txt","r")
-structsgood  = []
-for line2 in op5:
-    line2 = line2.strip()
-    structsgood.append(str(line2))
-op5.close()
-'''
 list1 = []
 op5 = open("/home/nooroka/backupres02102020/res/listresstructs.txt","r")
 for line in  op5:
