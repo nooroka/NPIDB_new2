@@ -26,8 +26,6 @@ for key2 in dict1:
     dict1[key2] = set(dict1[key2])
 
 listkeys = dict1.keys()
-#print(listkeys)
-#listkeys = sorted(listkeys)
 
 for key3 in listkeys:    
     op3.write(str(key3)+"\t"+' '.join(map(str,sorted(list(dict1[key3]))))+"\n")
@@ -37,12 +35,6 @@ process3 = subprocess.Popen(["sort", "-k1", "/home/nooroka/backupnores02102020/i
 data3,data33 = process3.communicate()
 with open("/home/nooroka/backupnores02102020/interaction_mode_domain_corr2.txt", 'w') as f:
     f.write(data3)
-
-#process4 = subprocess.Popen(["sort","-k1", "familiesendcorr.txt"], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
-#data4,data44 = process4.communicate()
-#with open('familiesendcorr2.txt', 'w') as f2:
- #   f2.write(data4)
-
 
 list3 = []
 list4 = []
