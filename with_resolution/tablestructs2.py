@@ -36,18 +36,8 @@ for line2 in op2:
 
 
 
-
-
-
-
-#print(listdomains2)
-#print(listfamilies2)
 w = open("/home/nooroka/backupres02102020/listdomainfam.txt","w")
 w.write(str(listdomains2)+'\n')
 w.write(str(listfamilies2)+'\n')
 w.close()
-#print(str(sys.argv[1]))
-#print("domains_in_structs "+str(len(set(listdomains2))))
-#print("families_in_structs "+str(len(set(listfamilies2))))
-#print("\n")
 print(str(sys.argv[1])+"\t"+str(len(set(listdomains2)))+"\t"+str(len(set(listfamilies2))))
