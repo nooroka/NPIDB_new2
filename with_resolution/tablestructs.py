@@ -49,48 +49,10 @@ op.close()
 setresstructs = set(listresstructs)
 setresdomains = set(listresdomains)
 
-#print(setdomains)
-#print(setstructs)
-#print(listresstructs)
-#print(str(sys.argv[1]))
 
-#print("domainsres "+str(len(setresdomains)))
-#print("structsres "+str(len(setresstructs)))
-#NULL не считается, поскольку в sys.argv[1] нет
 print(str(sys.argv[1])+"\t"+str(len(setresdomains))+"\t"+str(len(setresstructs)))
 
-#print(listresstructs)
-#print("\n")
+
 listdomains2 = []
 listfamilies2 = []
-'''
-op2 = open("result_sqldatabasenew5corr.txt","r")
-for line2 in op2:
-    line2 = line2.strip()
-    line2 = line2.split("\t")
-    if len(line2) > 1: #не учитываем случаи, где пустой Interaction mode
-        if str(line2[1]) == str(sys.argv[1]):
-             op3 = open("structsend.txt", "r")
-             for line3 in op3:
-                 line3 = line3.strip()
-                 line3 = line3.split("\t",1)
-                 line3[1] = line3[1].strip()
-                 if str(line2[0]) in str(line3[1]):
-                     listdomains2.append(line3[0])
-             op3.close()
-             op4 = open("structsend23.txt", "r")
-             for line4 in op4:
-                 line4 = line4.strip()
-                 line4 = line4.split("\t",1)
-                 line4[1] = line4[1].strip()
-                 if str(line2[0]) in str(line4[1]):
-                     listfamilies2.append(line4[0])
-             op4.close()      
-print(listdomains2)
-print(listfamilies2)
-      
-                     
-print("domains_in_structs "+str(len(listdomains2)))
-print("families_in_structs "+str(len(listfamilies2)))
-              
-'''
+
