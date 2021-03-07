@@ -1,7 +1,5 @@
 from collections import defaultdict
-#op = open("familiesendcorr2.txt","r")
 op = open("/home/nooroka/backupres02102020/families/dictinter7.txt","r")
-#op2 = open("familiesendcorrprom2.txt","w")
 op3 = open("/home/nooroka/backupres02102020/familiesendcorr2rep_corr.txt","w")
 
 data = defaultdict(list)
