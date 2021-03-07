@@ -50,8 +50,6 @@ print(len(setpdb2))
 print("countxray "+str(countxray))
 print("countel "+str(countel))
 print("countnmr "+str(countnmr))
-#print(sorted(setpdb ^ setpdb2))
-#print(sorted(setpdb2 - setpdb))
 listpdbdiff = sorted(setpdb2 - setpdb)
 w = open("/home/nooroka/backupres02102020/pdbcheck.txt","w")
 for i in range(len(listpdbdiff)):
