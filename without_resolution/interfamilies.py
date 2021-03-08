@@ -41,8 +41,7 @@ w.write(str(dict1)+"\n")
 
 w.close()
 listkeys = dict1.keys()
-#print(listkeys)
-#listkeys = sorted(listkeys)
+
 
 for key3 in listkeys:    
     op3.write(str(key3)+"\t"+' '.join(map(str,sorted(list(dict1[key3]))))+"\n")
